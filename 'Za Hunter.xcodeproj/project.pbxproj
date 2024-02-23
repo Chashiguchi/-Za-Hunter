@@ -11,6 +11,7 @@
 		68F619542B88F51A00CDA715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F619532B88F51A00CDA715 /* ContentView.swift */; };
 		68F619562B88F51C00CDA715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F619552B88F51C00CDA715 /* Assets.xcassets */; };
 		68F619592B88F51C00CDA715 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F619582B88F51C00CDA715 /* Preview Assets.xcassets */; };
+		68F619602B88F5EB00CDA715 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F6195F2B88F5EB00CDA715 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		68F619532B88F51A00CDA715 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68F619552B88F51C00CDA715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68F619582B88F51C00CDA715 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68F6195F2B88F5EB00CDA715 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		68F619452B88F51A00CDA715 = {
 			isa = PBXGroup;
 			children = (
+				68F6195F2B88F5EB00CDA715 /* LocationManager.swift */,
 				68F619502B88F51A00CDA715 /* 'Za Hunter */,
 				68F6194F2B88F51A00CDA715 /* Products */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				68F619542B88F51A00CDA715 /* ContentView.swift in Sources */,
 				68F619522B88F51A00CDA715 /* _Za_HunterApp.swift in Sources */,
+				68F619602B88F5EB00CDA715 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = XVX655S9D6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = XVX655S9D6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
